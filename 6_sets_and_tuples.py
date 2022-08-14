@@ -41,8 +41,8 @@ pass  # =============  МНОЖЕСТВО [SETS] =====================
 # a = {1, 2, 3, 4}
 # b = {3, 4}
 # print('a=', a, 'b=', b)
-# print('разница b in a -', a.difference(b))
-# print('разница a in b -', b.difference(a))
+# print('разница b in a -', a.difference(b), ' len=', len(a.difference(b)))
+# print('разница a in b -', b.difference(a), ' len=', len(b.difference(a)))
 # print('a=', a, 'b=', b)
 # print('разница обновление -', a.difference_update(b))
 # print('a=', a, 'b=', b)
@@ -56,9 +56,13 @@ pass  # =============  МНОЖЕСТВО [SETS] =====================
 # b = [1, 2, 3, 4]
 # print('b=', b, '10 in b ->', 10 in b)
 
-pass  # =============  КАРТЕЖИ [TUPLES] =====================
+pass  # =============  КАРТЕЖИ [TUPLES] - неизменяемый список по сути ENUM =====================
 a = (1, 2, 3, 4)
-print(a)
+b = [1, 2, 3, 4]
+# a[1] = 7
+b[1] = 7
+print(a[1])
+print(b[1])
 
 a = (1, 2)
 x, y = a

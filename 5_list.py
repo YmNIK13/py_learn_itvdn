@@ -7,7 +7,7 @@
 # my_list = list([1, 2, 3, 4, 5])
 # print(my_list[3])
 # print(my_list[0:3])
-# print(my_list[0:3:3])
+# print(my_list[0:5:2])
 
 # print('--------------')
 
