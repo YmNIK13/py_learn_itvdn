@@ -1,14 +1,14 @@
-# X = 1
-# print(X)
-#
-#
-# def f1():
-#     X = 10
-#     print("Increment X =", X + 1)
-#
-#
-# f1()
-# print(X)
+X = 1
+print(X)
+
+
+def f1():
+    X = 10
+    print("Increment X =", X + 1)
+
+
+f1()
+print(X)
 
 
 def main():

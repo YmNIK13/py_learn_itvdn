@@ -26,22 +26,24 @@ pass  # з'єднати 2
 # print(a)
 # a += b
 # print(a)
-pass  # забрать по индексу / развернуть
+pass  # забрать по индексу
 # print('--------------')
 # a = [1, 2, 3, 4]
 # print(a)
 # removed_element = a.pop(3)
 # print(a)
 # print(removed_element)
-# a.reverse()
-# print(a)
-pass  # сортировка
+pass  # сортировка / развернуть
 # print('--------------')
 # a = [5, 2, 1, 3, 4]
 # a.sort()
 # print(a)
 # b = [5, 2, 1, 3, 4]
 # b.sort(reverse=True)
+
+# a.reverse()
+# print(a)
+
 # print(b)
 pass  # обход списков
 # print('--------------')
